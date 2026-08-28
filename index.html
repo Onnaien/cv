@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+<meta charset="UTF-8">
+<title>CV Morten Undheim</title>
+<style>
+  @page { size: A4; margin: 0; }
+  * { box-sizing: border-box; }
+  .download-bar {
+    background: #eef2f6;
+    color: #1c3f60;
+    text-align: center;
+    padding: 10px 12px;
+    font-family: "Calibri", "Segoe UI", Arial, sans-serif;
+    font-size: 10.5pt;
+  }
+  .download-bar a {
+    color: #1c3f60;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 0 8px;
+    border-bottom: 1px solid #1c3f60;
+  }
+  .download-bar a:hover { color: #0d2438; }
+  @media print { .download-bar { display: none; } }
+  body {
+    font-family: "Calibri", "Segoe UI", Arial, sans-serif;
+    color: #262626;
+    font-size: 10pt;
+    line-height: 1.42;
+    margin: 0;
+  }
+  .page {
+    display: flex;
+    min-height: 297mm;
+  }
+  .sidebar {
+    width: 66mm;
+    background: #1c3f60;
+    color: #eef2f6;
+    padding: 7mm 7mm;
+    line-height: 1.22;
+  }
+  .main {
+    flex: 1;
+    padding: 10mm 9mm 10mm 8mm;
+  }
+  .photo-wrap { text-align: center; margin-bottom: 8px; }
+  .photo-wrap img {
+    width: 68px;
+    height: 68px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #7fa8cf;
+  }
+  .name-block { text-align: center; margin-bottom: 9px; }
+  .name-block h1 {
+    font-size: 14pt;
+    margin: 0;
+    color: #ffffff;
+    letter-spacing: 0.5px;
+    line-height: 1.2;
+  }
+  .name-block .role {
+    font-size: 8.5pt;
+    color: #a9c3dd;
+    margin-top: 2px;
+    letter-spacing: 0.5px;
+  }
+  .side-h {
+    font-size: 9pt;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #a9c3dd;
+    border-bottom: 1px solid #3f6489;
+    padding-bottom: 2px;
+    margin: 7px 0 4px 0;
+  }
+  .side-h:first-of-type { margin-top: 0; }
+  .contact-list { list-style: none; padding: 0; margin: 0; }
+  .contact-list li {
+    margin-bottom: 5px;
+    font-size: 8.4pt;
+    word-break: break-word;
+    color: #dbe6f0;
+  }
+  .side-skill-group { margin-bottom: 4px; }
+  .side-skill-group .k {
+    font-weight: bold;
+    font-size: 8.6pt;
+    color: #ffffff;
+    display: block;
+    margin-bottom: 1px;
+  }
+  .side-skill-group .v {
+    font-size: 8.2pt;
+    color: #cfdcea;
+  }
+  .side-list { list-style: none; padding: 0; margin: 0; }
+  .side-list li {
+    font-size: 8.4pt;
+    color: #dbe6f0;
+    margin-bottom: 3px;
+  }
+  .side-list li b { color: #fff; display: block; font-size: 8.5pt; }
+  .side-list li span.sub { color: #a9c3dd; font-size: 7.8pt; }
+
+  h2.main-h {
+    font-size: 12pt;
+    color: #1c3f60;
+    border-bottom: 2px solid #1c3f60;
+    padding-bottom: 3px;
+    margin: 0 0 7px 0;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+  .section { margin-bottom: 14px; }
+  .section:last-child { margin-bottom: 0; }
+  p.profile { margin: 0; text-align: justify; }
+  ul.bullets { margin: 4px 0 0 0; padding-left: 16px; }
+  ul.bullets li { margin-bottom: 3px; }
+  .job { margin-bottom: 11px; }
+  .job:last-child { margin-bottom: 0; }
+  .job-header { overflow: hidden; margin-bottom: 1px; }
+  .job-title { font-weight: bold; font-size: 10.3pt; color: #1c3f60; }
+  .job-dates {
+    float: right;
+    font-weight: normal;
+    color: #555;
+    font-size: 9pt;
+    background: #eef2f6;
+    padding: 1px 7px;
+    border-radius: 8px;
+  }
+  .sub-role { font-weight: bold; margin: 6px 0 2px 0; color: #333; }
+</style>
+</head>
+<body>
+<div class="download-bar">
+  Last ned som PDF:
+  <a href="Morten_Undheim_CV_moderne.pdf">Moderne</a>
+  <a href="Morten_Undheim_CV_klassisk.pdf">Klassisk</a>
+</div>
+<div class="page">
+
+  <div class="sidebar">
+    <div class="photo-wrap">
+      <img src="profilbilde.jpg" alt="Profilbilde Morten Undheim">
+    </div>
+    <div class="name-block">
+      <h1>MORTEN<br>UNDHEIM</h1>
+      <div class="role">SENIORUTVIKLER</div>
+    </div>
+
+    <div class="side-h">Kontakt</div>
+    <ul class="contact-list">
+      <li>Rogaland, Norge</li>
+      <li>onnaien@gmail.com</li>
+      <li>linkedin.com/in/mortenundheim</li>
+    </ul>
+
+    <div class="side-h">Teknisk ekspertise</div>
+    <div class="side-skill-group">
+      <span class="k">Frontend</span>
+      <span class="v">React, Material-UI, Vite, JavaScript/TypeScript, komponentbasert utvikling, CSS</span>
+    </div>
+    <div class="side-skill-group">
+      <span class="k">Backend &amp; Scripting</span>
+      <span class="v">Node.js, C/C++, PowerShell, SQL</span>
+    </div>
+    <div class="side-skill-group">
+      <span class="k">AI-assistert utvikling</span>
+      <span class="v">GitHub Copilot, Claude Code</span>
+    </div>
+    <div class="side-skill-group">
+      <span class="k">Kvalitetssikring &amp; Test</span>
+      <span class="v">Cypress, testdesign, code reviews, ISTQB</span>
+    </div>
+    <div class="side-skill-group">
+      <span class="k">DevOps &amp; Kildekode</span>
+      <span class="v">GitHub, Git, TeamCity, Octopus Deploy, WiX/MSI, NuGet</span>
+    </div>
+    <div class="side-skill-group">
+      <span class="k">Sky &amp; Plattformer</span>
+      <span class="v">Microsoft Azure, IIS, Windows Server, Linux</span>
+    </div>
+    <div class="side-skill-group">
+      <span class="k">Metodikk &amp; Ledelse</span>
+      <span class="v">Smidig/Agile, Scrum Master, QA Lead</span>
+    </div>
+
+    <div class="side-h">Sertifiseringer</div>
+    <ul class="side-list">
+      <li><b>DASA DevOps Fundamentals</b><span class="sub">DevOps Agile Skills Association, 2019</span></li>
+      <li><b>The Joy of React</b><span class="sub">Certificate of Completion</span></li>
+      <li><b>ISTQB Certified Tester</b><span class="sub">Foundation Level</span></li>
+      <li><b>Certified Scrum Master (CSM)</b><span class="sub">Scrum Alliance, 2008</span></li>
+    </ul>
+
+    <div class="side-h">Utdanning</div>
+    <ul class="side-list">
+      <li><b>Cand.Mag. / Telematikk</b><span class="sub">Høgskolen i Agder, 1992–1993</span></li>
+      <li><b>Ingeniør, Kybernetikk</b><span class="sub">Høgskolesenteret i Rogaland, 1989–1992</span></li>
+      <li><b>Bryne Vidaregåande Skule</b></li>
+    </ul>
+
+    <div class="side-h">Språk</div>
+    <ul class="side-list">
+      <li><b>Norsk</b><span class="sub">Morsmål</span></li>
+      <li><b>Engelsk</b><span class="sub">Flytende forretningsspråk</span></li>
+    </ul>
+
+    <div class="side-h">Fritid</div>
+    <ul class="side-list">
+      <li><span class="sub">Aktiv livsstil med ski, sykling og padling. Trives med praktisk vedlikehold av hus og hjem.</span></li>
+    </ul>
+  </div>
+
+  <div class="main">
+
+    <div class="section">
+      <h2 class="main-h">Profil</h2>
+      <p class="profile">Erfaren og allsidig seniorutvikler med et sterkt øye for optimalisering av arbeidsflyt gjennom bruk av moderne AI-verktøy, testautomatisering og robuste CI/CD-pipelines. I nåværende rolle ligger fokuset på frontend-utvikling med særlig vekt på sterk typing og høy kodekvalitet, samt AI-assistert utvikling og kontinuerlig effektivisering av de tilhørende rutinene. Kombinerer solid ingeniørkompetanse med en proaktiv tilnærming til automatisering for å sikre effektive og strukturerte leveranser.</p>
+    </div>
+
+    <div class="section">
+      <h2 class="main-h">Arbeidserfaring</h2>
+
+      <div class="job">
+        <div class="job-header">
+          <span class="job-title">Ignos AS — Seniorutvikler</span>
+          <span class="job-dates">10.2023 – nåværende</span>
+        </div>
+        <ul class="bullets">
+          <li>Sentral i utvikling og kontinuerlig teknisk vedlikehold av frontend-delen i selskapets applikasjonsportefølje.</li>
+          <li>Driver kvalitetssikring og sikrer kodekvalitet gjennom systematiske tester og grundige kodeanmeldelser (code reviews).</li>
+          <li>Tar aktivt i bruk moderne AI-verktøy (GitHub Copilot, Claude Code) for å effektivisere kodeflyt, feilsøking og dokumentasjon.</li>
+          <li>Benytter GitHub til kildekodehåndtering og versjonskontroll i det daglige teamarbeidet.</li>
+        </ul>
+      </div>
+
+      <div class="job">
+        <div class="job-header">
+          <span class="job-title">Bouvet ASA — Konsulent – QA og DevOps</span>
+          <span class="job-dates">02.2019 – 09.2023</span>
+        </div>
+        <ul class="bullets">
+          <li>Utleid konsulent til komplekse programvareprosjekter for <b>Equinor</b> gjennom en etablert rammeavtale.</li>
+          <li>Hovedutvikler av automatiserte regresjonstester med <b>Cypress</b> for skybaserte Azure-webapplikasjoner bygget på React/.NET.</li>
+          <li>Overordnet ansvarlig for kvalitetssikring og test av nye versjoner før produksjonssetting.</li>
+          <li>Tett kundekontakt under akseptansetesting, kravspesifisering og kontinuerlig optimalisering av smidige arbeidsmetoder.</li>
+        </ul>
+      </div>
+
+      <div class="job">
+        <div class="job-header">
+          <span class="job-title">Powel AS (senere Powel Environment AS) — Senior teknisk konsulent / systemutvikler</span>
+          <span class="job-dates">08.2008 – 03.2019</span>
+        </div>
+        <p class="sub-role">Gemini Portal (2016–2019)</p>
+        <ul class="bullets">
+          <li>Utviklet og tilpasset en sky- og webbasert portal med sanntidsdata og kartbasert grensesnitt (GIS) for 150–200 kommunale kunder. Automatisert prosesser med PowerShell og administrerte IIS/SQL-servere.</li>
+        </ul>
+        <p class="sub-role">Gemini Desktop (2008–2016)</p>
+        <ul class="bullets">
+          <li>Fokusert på automatisering av bygg- og distribusjonsprosesser (Build/Deployment, WiX/MSI, NuGet) for en felles produktplattform. Fungerte også som Scrum Master for vedlikeholdsteam.</li>
+        </ul>
+      </div>
+
+      <div class="job">
+        <p class="sub-role" style="margin-top:0;">Eldre relevant erfaring (Sammendrag)</p>
+        <ul class="bullets">
+          <li><b>Acergy Norway AS</b> | Senior planleggingsingeniør / SW-utvikler (2002–2008) – Utvikling av offshore survey-programvare (C/C++, Perl/Tk) og smidig prosjektplanlegging.</li>
+          <li><b>Ericsson AS</b> | Senior SW-utvikler &amp; TTCN-ekspert (1993–2002) – Arkitektur og testautomatisering for komplekse mobilnettverk (GPRS).</li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+
+</div>
+</body>
+</html>
