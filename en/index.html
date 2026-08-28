@@ -13,6 +13,8 @@
     padding: 10px 12px;
     font-family: "Calibri", "Segoe UI", Arial, sans-serif;
     font-size: 10.5pt;
+    max-width: 210mm;
+    margin: 0 auto;
   }
   .download-bar a {
     color: #1c3f60;
@@ -29,10 +31,22 @@
     font-size: 10pt;
     line-height: 1.42;
     margin: 0;
+    background: #e4e9ef;
   }
   .page {
     display: flex;
     min-height: 297mm;
+    max-width: 210mm;
+    margin: 0 auto;
+    background: #ffffff;
+    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.15);
+  }
+  @media screen {
+    body { padding: 28px 12px; }
+  }
+  @media print {
+    body { background: #ffffff; padding: 0; }
+    .page { max-width: none; margin: 0; box-shadow: none; }
   }
   .sidebar {
     width: 66mm;
