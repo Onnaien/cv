@@ -1,8 +1,8 @@
 # CV — Morten Undheim
 
-Curriculum vitae for Morten Undheim, seniorutvikler.
+Curriculum vitae for Morten Undheim, senior developer.
 
-- **[Se CV på nett](index.html)** (GitHub Pages)
-- [Last ned som PDF](Morten_Undheim_CV_moderne.pdf)
+- **[Norsk versjon (nett)](index.html)** · [Last ned som PDF](Morten_Undheim_CV_moderne.pdf)
+- **[English version (web)](en/index.html)** · [Download as PDF](Morten_Undheim_CV_en.pdf)
 
-Kontakt: onnaien@gmail.com · [LinkedIn](https://linkedin.com/in/mortenundheim)
+Contact: onnaien@gmail.com · [LinkedIn](https://linkedin.com/in/mortenundheim)
